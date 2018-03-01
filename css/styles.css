@@ -1,5 +1,8 @@
 
-
+body {
+	margin: 10px;
+	padding: 5px;
+}
 
 ul {
 	list-style-type: none;
@@ -15,13 +18,31 @@ ul {
 	float:right;
 }
 
+li a {
+	padding: 3px;
+	text-decoration: none;
+}
 
-#google-logo {
+.main {
+	padding-top: 300px;
+}
+
+.logo {
 	margin: 0 auto;
-	width: 600px;
-}argin: 0 auto
+	width: 280px;
+}
 
 .search {
 	margin: 0 auto;
 	width: 600px;
+}
+
+.search input {
+	min-height: 43px;
+	min-width: 550px;
+}
+
+.buttons {
+	margin: 0 auto;
+	width: 280px;
 }
