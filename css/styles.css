@@ -2,12 +2,17 @@
 body {
 	margin: 10px;
 	padding: 5px;
+	font-family: 'Roboto', sans-serif;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0:
 	padding: 0;
+}
+
+#navleft {
+	padding-left: 0;
 }
 
 #navleft li {
@@ -19,12 +24,18 @@ ul {
 }
 
 li a {
-	padding: 3px;
+	padding-left: 15px;
 	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+}
+
+li a:hover {
+	text-decoration: underline;
 }
 
 .main {
-	padding-top: 300px;
+	padding-top: 150px;
 }
 
 .logo {
@@ -39,10 +50,12 @@ li a {
 
 .search input {
 	min-height: 43px;
-	min-width: 550px;
+	min-width: 580px;
+	margin: 10px;
 }
 
 .buttons {
 	margin: 0 auto;
 	width: 280px;
+	padding: 5px;
 }
